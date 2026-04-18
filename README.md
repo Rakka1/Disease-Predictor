@@ -1,7 +1,6 @@
 # Disease-Predictor
 A model that predicts diseases and there subclasses
-Data source from kaggle https://www.kaggle.com/datasets/aibuzz/predict-the-genetic-disorders-datasetof-gen
-omes/data
+Data source from kaggle https://www.kaggle.com/datasets/aibuzz/predict-the-genetic-disorders-datasetof-genomes/data
 
 How to Run 
 ● Save the script to a .py file,  
