@@ -1,15 +1,27 @@
-# Disease-Predictor
-A model that predicts diseases and there subclasses
-Data source from kaggle https://www.kaggle.com/datasets/aibuzz/predict-the-genetic-disorders-datasetof-genomes/data
+**#Disease Predictor: Genomic Data Mining**
+Overview
+This project explores the intersection of bioinformatics and machine learning. I developed a prototype system that analyzes genomic sequence data to predict susceptibility to various genetic disorders and their specific subclasses. 
 
-How to Run 
-● Save the script to a .py file,  
-● Ensure the train.csv file is in the same directory. 
-● Run the script using Python
+**The Data**
 
-Prediction Function 
-● Define predict_disorder to accept input from the user interface. 
-● Encode the user input consistently. 
-● Predict and return both subclass and disorder in text format 
+Source: Kaggle Genetic Disorders Dataset. Link: https://www.kaggle.com/datasets/aibuzz/predict-the-genetic-disorders-datasetof-genomes/data
 
-Uses Gradio interface
+Objective: Multi-target classification of primary disorders and secondary subclasses.
+
+Key Technical Features
+
+
+Data Processing: Implemented consistent encoding for genomic features to ensure model stability during real-time inference. 
+
+Machine Learning: Built a predictive model focused on high-accuracy classification of genetic markers.
+
+
+Interactive UI: Developed a front-end interface using Gradio, allowing users to input sequence data and receive immediate disorder predictions in plain text. 
+
+How to Use
+
+1.Clone the repository and ensure train.csv is in the root directory.
+
+2. Install dependencies: pip install pandas scikit-learn gradio.
+
+3. Run the application: python disease_predictor.py.
