@@ -1,5 +1,7 @@
-**#Disease Predictor: Genomic Data Mining**
+**#Disease Predictor: Genomic Data Mining:**
+
 Overview
+
 This project explores the intersection of bioinformatics and machine learning. I developed a prototype system that analyzes genomic sequence data to predict susceptibility to various genetic disorders and their specific subclasses. 
 
 **The Data**
